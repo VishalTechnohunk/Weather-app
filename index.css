@@ -1,0 +1,45 @@
+body {
+    background: url("https://nordicapis.com/wp-content/uploads/6-Best-Free-and-Paid-Weather-APIs.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vishal {
+    border: 2px solid black;
+    height: 400px;
+    width: 450px;
+    padding: 20px;
+    background: linear-gradient(to right, #e66465, #9198e5);
+    border-radius: 10px;
+}
+
+#City-input {
+    width: 300px;
+    height: 26px;
+}
+
+#Search-button {
+    margin-left: 10px;
+    width: 91px;
+    height: 32px;
+}
+
+#weather-info {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#weather-image {
+    margin-top: 20px;
+    text-align: center;
+}
